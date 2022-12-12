@@ -6,17 +6,21 @@ body{
     background-color: #131313;
     padding: 1.5em 0;
 }
-#root div section{
+#root section{
     text-align: center;
 }
-#root div section div{
+#root section div{
     display: inline-block;
 }
-#root div section div img{
+#root section div img{
     object-fit: cover;
 }
 .card{
     width: 18em;
     margin: none;
     margin: 0 0.5em;
+    transition: .25s;
+}
+.card:hover{
+    width: 19.5em;
 }
